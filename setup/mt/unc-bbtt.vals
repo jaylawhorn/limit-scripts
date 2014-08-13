@@ -1,0 +1,29 @@
+###########################################################################
+# unc.vals: specification of uncertainty values by category, sample, and uncertainty name
+mutau       signal,background                          lumi                                       1.026
+mutau       ggH,signal                        pdf_gg                                          1.097
+#mutau       qqH                        pdf_qqbar                                       1.036
+mutau       ggH,signal                              pdf_qqbar                                       1.04
+mutau       ggH                              QCDscale_VH                                     1.04
+mutau       ggH,signal                        QCDscale_ggH2in                                1.20 
+#mutau       qqH                       QCDscale_qqH                                    1.018
+mutau       ggH,signal                     UEPS                                            0.988
+mutau       ggH,signal                        UEPS                                            0.893
+mutau		 	signal,ZTT,TT,VV 		CMS_eff_m 				1.01
+mutau		 	signal,TT,VV,ggH,ZTT    		CMS_eff_t 				1.062
+#mutau		 	signal  			CMS_scale_t 				1.00
+mutau        	        TT				CMS_scale_j				0.94
+mutau        	        VV,signal,ggH				CMS_scale_j				0.97
+mutau	 		signal   	   		CMS_scale_met				1.05
+mutau	 		TT		    		CMS_scale_met				1.02
+mutau	 		VV    				CMS_scale_met				1.06
+#mutau                       ZTT				CMS_htt_ztt_extrap_SM0			1.00049233
+#mutau                       QCD				CMS_htt_muTau_SM0_QCDSyst		1.018
+mutau			ZTT			CMS_htt_zttNorm 			1.033
+mutau			W				CMS_htt_muTau_WNorm 			1.21
+mutau			TT				CMS_htt_ttbarNorm			1.086
+mutau			VV				CMS_htt_DiBosonNorm			1.301
+#mutau                       QCD				CMS_htt_muTau_SM0_QCDNorm		1.108 
+#mutau			ZTT				CMS_htt_muTau_SM0_ZJetFakeTau		1.108
+#mutau    		ZTT				CMS_htt_muTau_SM0_ZLeptonFakeTau	1.112
+

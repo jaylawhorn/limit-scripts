@@ -1,0 +1,29 @@
+###########################################################################
+# unc.vals: specification of uncertainty values by category, sample, and uncertainty name
+eletau       signal,background                          lumi                                       1.026
+eletau       ggH,signal                        pdf_gg                                          1.097
+eletau       qqH                        pdf_qqbar                                       1.036
+eletau       ggH,signal                              pdf_qqbar                                       1.04
+eletau       ggH                              QCDscale_VH                                     1.04
+eletau       ggH,signal                        QCDscale_ggH2in                                1.20 
+eletau       qqH                       QCDscale_qqH                                    1.018
+eletau       qqH,ggH,signal                     UEPS                                            0.988
+eletau       ggH,signal                        UEPS                                            0.893
+eletau		 	signal,ZTT,TT,VV 		CMS_eff_m 				1.01
+eletau		 	signal,TT,VV,ggH,qqH,ZTT    		CMS_eff_t 				1.062
+#eletau		 	signal  			CMS_scale_t 				1.00
+eletau        	        TT				CMS_scale_j				0.94
+eletau        	        VV,signal,ggH,qqH				CMS_scale_j				0.97
+eletau	 		signal   	   		CMS_scale_met				1.05
+eletau	 		TT		    		CMS_scale_met				1.02
+eletau	 		VV    				CMS_scale_met				1.06
+#eletau                       ZTT				CMS_htt_ztt_extrap_SM0			1.00049233
+#eletau                       QCD				CMS_htt_muTau_SM0_QCDSyst		1.018
+eletau			ZTT			CMS_htt_zttNorm 			1.033
+eletau			W				CMS_htt_muTau_WNorm 			1.21
+eletau			TT				CMS_htt_ttbarNorm			1.086
+eletau			VV				CMS_htt_DiBosonNorm			1.301
+#eletau                       QCD				CMS_htt_muTau_SM0_QCDNorm		1.108 
+#eletau			ZTT				CMS_htt_muTau_SM0_ZJetFakeTau		1.108
+#eletau    		ZTT				CMS_htt_muTau_SM0_ZLeptonFakeTau	1.112
+

@@ -1,0 +1,16 @@
+###########################################################################
+# unc.vals: specification of uncertainty values by category, sample, and uncertainty name
+emu       signal,background                          lumi                                       1.026
+emu       signal                        pdf_gg                                          1.097
+emu       signal                              pdf_qqbar                                       1.04
+emu       signal                        QCDscale_ggH2in                                1.20 
+emu       signal                     UEPS                                            0.988
+emu       signal                        UEPS                                            0.893
+emu		 	signal,TT 		CMS_eff_m 				1.01
+emu		 	signal,TT    		CMS_eff_t 				1.062
+emu        	        TT				CMS_scale_j				0.94
+emu        	        signal				CMS_scale_j				0.97
+emu	 		signal   	   		CMS_scale_met				1.05
+emu	 		TT		    		CMS_scale_met				1.02
+emu			TT				CMS_htt_ttbarNorm			1.086
+
